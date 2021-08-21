@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>books store</title>
+  </head>
+  <body>
+    <!-- head section -->
+    <header id="head">
+      <img class="logo-bookstore" src="./assets/bookshop.jpg" alt="bookstore" />
+      <nav id="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Account</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main section -->
+    <main id="main">
+      <!-- carte items details -->
+      <div class="small-container">
+        <table>
+          <tr>
+            <th>products</th>
+            <th>quantity</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+          <!-- first product -->
+          <tr id="product1">
+            <td>
+              <div class="product-info1">
+                <div class="product-img">
+                  <img
+                    src="./assets/product1.jpg"
+                    alt="a carnival of Snackery"
+                  />
+                  <button class="heart" id="heartid1"> <img  id="heart1" class="gray-heart" src="/assets/gray-heart.png" alt=""></i></button></i>
+                </div>
+                <div class="info1">
+                  <h2>a carnival of Snackery</h2>
+                  <h3><span class="price1">25</span>dt</h3>
+                </div>
+              </div>
+            </td>
+            <td>
+              <button class="minus-button1">-</button>
+              <input type="text" class="qty1" value="1" />
+              <button class="plus-button1">+</button>
+            </td>
+            <td class="price-style"><span class="total1">25</span>dt</td>
+            <td>
+              <button class="remove1">Remove item</button>
+            </td>
+          </tr>
+          <!-- second product -->
+          <tr id="product2">
+            <td>
+              <div class="product-info">
+                <div class="product-img">
+                  <img
+                    src="./assets/product2.png"
+                    alt="J.D. and the Great Barber Battle"
+                  />
+                  <button class="heart" id="heartid2"> <img  id="heart2" class="gray-heart"  src="/assets/gray-heart.png" alt=""></i></button></i>
+                </div>
+
+                <div class="info">
+                  <h2>J.D. and the Great Barber Battle</h2>
+                  <h3><span class="price2">35</span>dt</h3>
+                </div>
+              </div>
+            </td>
+            <td>
+              <button class="minus-button2">-</button>
+              <input type="text" value="1" class="qty2" />
+              <button class="plus-button2">+</button>
+            </td>
+
+            <td class="price-style"><span class="total2">35</span>dt</td>
+            <td><button class="remove2">Remove item</button></td>
+          </tr>
+          <!-- third product -->
+          <tr id="product3">
+            <td>
+              <div class="product-info">
+                <div class="product-img">
+                  <img
+                    src="./assets/product3.jpg"
+                    alt="Sydney and Taylor Explore the Whole Wide World"
+                  />
+                   <button class="heart" id="heartid3"> <img  id="heart3" class="gray-heart"  src="/assets/gray-heart.png" alt=""></i></button></i>
+               </div>
+
+                <div class="info">
+                  <h3>Sydney and Taylor Explore the Whole Wide World</h3>
+                  <h2><span class="price3">30</span>dt</h2>
+                </div>
+              </div>
+            </td>
+            <td>
+              <button class="minus-button3">-</button>
+              <input type="text" value="1" class="qty3" />
+              <button class="plus-button3">+</button>
+            </td>
+            <td class="price-style"><span class="total3">30</span>dt</td>
+            <td><button class="remove3">Remove item</button></td>
+          </tr>
+        </table>
+        <!-- total price -->
+        <button class="check-total">check total</button>
+        <div class="totalprice">
+          <span class="totalx">Total: </span>
+          <span class="total-price"> </span>
+          <span class="totalx">dt </span>
+        </div>
+      </div>
+    </main>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="feedback">
+        <button>ANY FEEDBACK?</button>
+      </div>
+      <div class="follow-us">
+        <h3>FIND US ON</h3>
+        <a
+          href="https://www.facebook.com/profile.php?id=100009466028375"
+          class="fa fa-facebook"
+        ></a>
+        <a
+          href="https://www.instagram.com/asma_sahraoui/?hl=fr"
+          class="fa fa-instagram"
+        ></a>
+      </div>
+      <div class="copyright"><p>Copyright 2021- ASMA</p></div>
+    </footer>
+    <script src="js/test.js"></script>
+  </body>
+</html>
